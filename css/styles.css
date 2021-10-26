@@ -1,0 +1,180 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #FFC288;
+
+  animation-name: scaleIn;
+  animation-duration: .5s;
+  animation-delay: .1s;
+  animation-fill-mode: both;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFC288;
+  font-weight: normal;
+  padding-bottom: 10px;
+
+  animation-name: scaleIn;
+  animation-duration: .5s;
+  animation-delay: .1s;
+  animation-fill-mode: both;
+}
+
+a {
+  color: #FF6701;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #FEA82F;
+}
+
+p {
+  line-height: 2;
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+}
+
+hr {
+  border: dotted #FCECDD;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+#links img:hover {
+  opacity:0.10;
+  transform: scale(1.2);
+}
+
+@keyframes scaleIn {
+  0% {transform: scale(0.2);}
+  85% {transform: scale(1.1);}
+  100% {transform:scale(1);}
+}
+
+@keyframes move {
+  100% {
+    transform: translateX(700%);
+  }
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 260px;
+  top: 30px;
+}
+
+.top-container {
+  background-color: #FCECDD;
+  position: relative;
+  padding-top: 100px;
+}
+
+.qualification-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-img {
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+
+  animation-name: move;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+}
+ .tech {
+   width: 20%
+ }
+.sport-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.myButton {
+  box-shadow: inset 0px 1px 0px 0px #FEA82F;
+  background: linear-gradient(to bottom, #FFC288 5%, #FEA82F 100%);
+  background-color: #FEA82F;
+  border-radius: 6px;
+  border: 1px solid #eeb44f;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  padding: 8px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #cc9f52;
+}
+
+.myButton:hover {
+  transform: scale(1.1);
+  background: linear-gradient(to bottom, #FEA82F 5%, #FFC288 100%);
+  background-color: #FEA82F;
+  border-radius: 20px;
+}
+
+.myButton {
+  transition: background .3s ease-in,
+              transform .2s ease-in-out;
+              border-radius: .3s ease-in;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
+}
+
+.middle-container {
+  margin: 100px auto;
+}
+
+.bottom-container {
+  background-color: #FEA82F;
+  padding: 50px 0 20px;
+}
