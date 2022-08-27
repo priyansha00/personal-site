@@ -83,6 +83,7 @@ hr {
 }
 
 .profile {
+  clip-path: circle;
   border-radius: 50%;
 }
 
